@@ -1,0 +1,54 @@
+.recuadro {
+    width: 600px;
+    /* Ancho del recuadro */
+    height: 400px;
+    /* Altura del recuadro */
+    border: 1px solid black;
+    /* Borde del recuadro */
+    background-color: #f0f0f0;
+    /* Color de fondo del recuadro */
+    padding: 00px;
+    /* Espacio interior dentro del recuadro */
+
+}
+
+#miInput {
+    width: 200%;
+    /* El input ocupa todo el ancho del recuadro */
+    height: 100%;
+    /* El input ocupa toda la altura del recuadro */
+    border: none;
+    /* Sin borde interno para el input */
+    padding: 0;
+    /* Sin padding interno para el input */
+    /* ... Otros estilos para el input */
+}
+
+#nuevoTarea {
+    width: 85%;
+    /* El input ocupa todo el ancho del recuadro */
+
+
+}
+
+
+#listaTareas {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: right; */
+    gap: 0px;
+    padding: 1rem;
+    padding-right: 2rem;
+
+}
+
+#agregarTarea {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

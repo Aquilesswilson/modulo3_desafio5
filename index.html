@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 3 - Desafío 5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="recuadro">
+
+
+        <section>
+            <h1>Todo List</h1>
+            <hr>
+
+            <h3>Nueva tarea:</h3>
+
+            <input id="nuevoTarea" type="text" placeholder="Escribe aquí...">
+            <button id="agregarTarea">Agregar</button>
+        </section>
+
+        <section id="listaTareas">
+            <div id="contadorTareas">
+                <h3>Total: <span id="total">0</span> </h3>
+                <h3>Realizadas: <span id="realizadas">0</span> </h3>
+            </div>
+            <div id="listaTodoList">
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>Detalle</th>
+                        <th>Estado</th>
+                        <th>Eliminar</th>
+                    </thead>
+                    <tbody id="Tareas">
+
+                    </tbody>
+                </table>
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
